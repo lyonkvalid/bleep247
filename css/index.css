@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.nuxt-link-active {
+  color: black;
+  font-weight: bolder;
+  font-family: bold;
+}
+
+#tab .nuxt-link-active {
+  border-bottom: 3px solid black;
+}
+
+@font-face {
+  font-family: bold;
+  src: url("fonts/bold.ttf");
+}
+
+@font-face {
+  font-family: regular;
+  src: url("fonts/regular.ttf");
+}
+
+.bold {
+  font-family: bold;
+}
+body {
+  font-family: regular;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+sidenav { transition: width 1s ease-in-out; }
+
+.filter-yellow-600{ filter: invert(100%) sepia(85%) saturate(6504%) hue-rotate(326deg) brightness(103%) contrast(98%); }
+.filter-yellow-50 { filter: invert(95%) sepia(68%) saturate(315%) hue-rotate(306deg) brightness(105%) contrast(104%); }
